@@ -1,0 +1,217 @@
+
+h3 {
+    padding: 10px 20px;
+}
+
+
+nav {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: -30px 50px; 
+    display: flex;
+    align-items: center;
+    border: #000000;
+    
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;  
+    gap: 7%;
+    margin: 0;
+    padding: 0;
+    align-items: left; 
+    padding: 10px 60px;
+    margin-right: 600px;  
+    border-color: #000000;
+}
+
+.nav-list li {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li a {
+    color: #bcbcbc;
+    font-weight: bold;
+    text-decoration: none; 
+    
+}
+
+.nav-list li a:hover {
+    color: #b6b6b6;
+}
+
+nav img {
+    height: 30px;
+    margin-left: 80px;    
+    margin-right: 35px;                                                                                                   
+}
+
+
+.btn-section {
+    display: flex;        
+    gap: 10px;               
+  }
+  
+  /* Estilos para los botones existentes */
+  .serch-btn {
+    display: flex;
+    background-color: #ececec;
+    color: rgb(158, 158, 158);
+    border: none;
+    border-radius: 10px;
+    padding: 7px 15px;    
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .deploy-btn {
+    background-color: #ffffff;
+    border-color: #cccaca;
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    cursor: pointer;
+    
+
+  }
+
+  .deploy-btn i {
+    margin-left: 5px;
+    margin-right: 20px;
+    margin-top: 5px;
+    margin-block: 5px;
+  }
+
+
+  .Learn-btn {
+    background-color: #000000;
+    border-color: #cccaca;
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .serch-btn:hover, .deploy-btn:hover {
+    background-color: #e3e3e3;
+  }
+
+.Learn-btn:hover{
+    background-color: #414141;
+  }
+
+header {
+    margin-top: 80px; 
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+header h1 {
+    font-size: max(48px, min(5vw, 76px));
+    color: #333;
+    margin-top: 130px;
+    letter-spacing: -.05em;
+}
+
+header h4 {
+    font-size: max(15px, min(2vw, 20px));
+    margin-top: 80px;
+    color: #9b9b9b;
+}
+
+header h4 strong {
+    font-weight: bold; 
+    color: #000;       
+}
+
+.button-container {
+  display: flex;
+  gap: 10px; 
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Botón negro */
+.btn-primary {
+  background-color: black;
+  color: white;
+}
+
+/* Botón blanco con borde */
+.btn-secondary {
+  background-color: white;
+  color: black;
+  border-color: #cccaca;
+  border-width: 1px;
+  border-style: solid;
+}
+
+
+.btn-primary:hover {
+  background-color: #4f4f4f;
+}
+
+
+.btn-secondary:hover {
+   background-color: #dcd8d8;
+  }
+
+.npx-link {
+    font-family: monospace;
+    color: #9b9b9b;
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.section-text {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    margin-top:  300px;
+  }
+  
+  .section-text h2 {
+    font-size: max(28px, min(3vw, 36px)); 
+    color: #333;
+    font-weight: bold;
+    margin: 0; 
+  }
+  
+  .section-text a {
+    font-size: max(16px, min(2vw, 20px)); 
+    color: #555;
+    text-decoration: none;
+    font-weight: normal;
+    margin: 0; 
+  }
+  
+  .section-text a:hover {
+    color: #000; 
+    text-decoration: underline;
+  }
+  
